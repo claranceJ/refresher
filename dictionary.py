@@ -3,6 +3,7 @@ cars["jeep"]=20
 cars["lambo"]=30
 cars["audi"]=21
 cars["bmw"]=45
-cars["bmw"]=29
-cars["benz"]=90
+cars["bmw"]=cars["bmw"]-5
+cars["benz"]=25
+cars["benz"]=cars["benz"]+2
 print(cars["bmw"])
